@@ -1,8 +1,16 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.4.17"
+  "name": "your-portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio website built with HTML, Tailwind CSS, and JavaScript.",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./output.css --minify",
+    "watch-tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch"
   },
-  "dependencies": {
-    "flowbite": "^2.5.2"
+  "keywords": ["portfolio", "html", "css", "tailwind", "javascript"],
+  "author": "Anjali Nanaware",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17" 
   }
 }
